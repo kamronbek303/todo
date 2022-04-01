@@ -12,9 +12,9 @@ function App() {
     }
   }
 
-444444444444---------------------------------------------------------------------------------------
-
-
+  useEffect(()=>{
+    document.documentElement.setAttribute('data-theme',theme)
+  },[theme])
   return (
     <div className="App">
       <div className="absolute right-10 top-10">
